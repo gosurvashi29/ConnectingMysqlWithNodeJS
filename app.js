@@ -16,7 +16,13 @@ const productRouter= require('./routes/products')
 
 const userRouter=require('./routes/user')
 
-db.execute('SELECT * from products');
+db.execute('SELECT * from products')
+.then(result=>{
+  console.log(result[0], result[1]);
+})
+.catch(err=>{
+  console.log(err);
+});
 
 app.use(express.static("public")) //this means the files inside public folder are static, that is the files are already present on the server, and wedo not need to make any requests to get those files// so these files are already present on the server to the client
 

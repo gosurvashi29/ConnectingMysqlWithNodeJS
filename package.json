@@ -2,6 +2,14 @@
   "name": "p",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/gosurvashi29/ConnectingMysqlWithNodeJS#readme",
+  "bugs": {
+    "url": "https://github.com/gosurvashi29/ConnectingMysqlWithNodeJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gosurvashi29/ConnectingMysqlWithNodeJS.git"
+  },
   "license": "ISC",
   "author": "",
   "type": "commonjs",
